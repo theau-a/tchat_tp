@@ -1,0 +1,31 @@
+Comment créer un module de tchat afin que des membres puissent echanger leurs messages .
+
+#1 créer la base de donnée "tchat" (PHPMYADMIN, SHELL)
+
+ >table USER 
+    -id_user (pk - ai)
+    -pseudo
+    -password
+    -mail
+    -picture
+
+ > COMMENT 
+    -id_comment (pk -ai)
+    -id_user (fk)
+    -content
+    -datetime
+
+#2 connexion a la BDD 
+
+#3 creer le formulaire d'inscription >> securiser les données entrer et INSERT en BDD 
+
+#4 creer le formulaire de connexion securiser les données (POST) 
+    et SELECT en basse de données
+
+#5 entrer sur la page de chat : formulaire d'envoie de message (POST) et INSERT en BDD 
+
+#6 tchat: SELECT des messages en BDD
+
+#7 possibilité de deconexion 
+
+#8 .......... PENSER A LA V2.............
