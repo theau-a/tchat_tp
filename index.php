@@ -105,7 +105,6 @@
                 <h1>Inscription & connexion</h1>
                 <form action="" method="POST" enctype="multipart/form-data">
                 <!-- l'atribut enctype est tres inportant car nous souhaitons traiter l'envoie d'un fichier. sans ca, pas de données rtecuperer via la superglobal $_FILES -->
-                    <h2>Inscription</h2>
                     <?= $msg ?>
                     <small id="emailHelp" class="form-text text-muted">tes donnes ne seront pas utiliser a des fins commercial</small>
 
@@ -118,7 +117,7 @@
                         <input type="password" class="form-control" id="password" placeholder="password" name="password">
                     </div>
                     <div class="form-group">
-                        <label for="email">choissisez votre password</label>
+                        <label for="email">choissisez votre email</label>
                         <input type="email" class="form-control" id="email" placeholder="email" name="mail">
                     </div>
                     <div class="form-group">
@@ -128,23 +127,10 @@
                     <button type="submit" class="btn btn-dark" name="inscription">inscription</button><br>
                 </form>  
             </div>
+    </main>
         
 
-        
-            <form class="col-4-mr connect" method="POST"> 
-                 <h2>Connexion</h2>
-                    <div class="form-group">
-                        <label for="pseudo">pseudo : </label>
-                        <input type="text" name="pseudo" id="pseudo1" class="form-control" placeholder="pseudo">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">password : </label>
-                        <input type="password" name="password" id="password1" class="form-control" placeholder="password">
-                    </div>
-                    <button type="submit" class="btn btn-dark" name="conexion">conexion</button><br>
-            </form>
-        </div>
-    </main>
+
 
 <?php
 require_once('inc/footer.php');

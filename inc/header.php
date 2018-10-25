@@ -13,15 +13,18 @@
   <body>
   <nav class="navbar navbar-light bg-dark">
   <a class="navbar-brand">Navbar</a>
-  <form class="form-inline connect" method="POST"> 
-                 <h2>Connexion</h2>
-                    <div class="form-group">
+  <form class="form-inline connect mr-5 ml-5" method="POST"> 
+                    <div class="form-group ml-3">
+                        <label for="pseudo">pseudo : </label>
                         <input type="text" name="pseudo" id="pseudo1" class="form-control" placeholder="pseudo">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group ml-3">
+                        <label for="password">password : </label>
                         <input type="password" name="password" id="password1" class="form-control" placeholder="password">
                     </div>
-                    <button type="submit" class="btn btn-dark" name="conexion">conexion</button><br>
+                    <button type="submit" class="btn btn-secondary ml-3" name="conexion">conexion</button><br>
             </form>
+        </div>
+  <a href="?a=deconnect" class="btn btn-warning">deconnexion</a>
 </nav>
 

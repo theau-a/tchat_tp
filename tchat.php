@@ -92,7 +92,7 @@ require_once('inc/header.php');
 <br>
 <br>
 <?=$msg?>
-<a href="?a=deconnect" class="btn btn-warning">deconnexion</a>
+
 </div>
 <?php
 
